@@ -268,7 +268,6 @@ func main() {
   
   http.ListenAndServe(":3004", n)
 }
-
 ```
 
 ```
@@ -277,6 +276,7 @@ go run server.go
 ```
 
 ```
+l.SetFormat("[{{{.Status}} {{.Duration}}}] - {{.Request.UserAgent}}")
 ```
 
 
